@@ -1,7 +1,4 @@
-export interface ComponentProps {
-  isDarkMode: boolean;
-  isVertical: boolean;
-}
+export interface ComponentProps {}
 
 const Component = ({}: ComponentProps) => {
   return null;
