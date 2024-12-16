@@ -36,6 +36,8 @@ Example:
 
 To help you understand it well, the example generation results `src/Component.tsx` and `src/Component.stories.tsx` are now moved to `src/ExampleButtonGroup.tsx` and `src/ExampleButtonGroup.stories.tsx` respectively. You should generate new results to `src/Component.tsx` and `src/Component.stories.tsx`.
 
+Do not modify Component's storybook title.
+
 You should import from `@/components/ui/$name` following those documentations in `docs/` folder and use them in your generated code as needed.
 
 Modify component input props as needed to make the component generally usable.
