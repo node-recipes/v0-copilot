@@ -25,6 +25,8 @@ You can refer to the layout example to beautify the UI layout you generate.
 Since the code is COMPLETELY STATIC(do not accept any props), there is no need to think too much about scalability and flexibility. It is more important to make its UI results rich and complete.
 Also there is no need to consider the length or complexity of the generated code.
 
+`tailwind.config.js` provides custom colors and animations. Try to provide a good user experience by using them in your generated code.
+
 Use semantic HTML elements and aria attributes to ensure the accessibility of results, and more. Also need to use Tailwind to adjust spacing, margins and padding between elements, especially when using elements like `main` or `div`. Also need to make sure to rely on default styles as much as possible and avoid adding color to components without explicitly telling them to do so.
 No need to import tailwind.css.
 
