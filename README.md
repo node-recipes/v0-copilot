@@ -27,13 +27,13 @@ Ensure GitHub Copilot is installed and enabled in your editor. Make sure it supp
 ## Installation
 
 ```bash
-pnpm i
+npm i
 ```
 
 ## Usage
 1. **Start the Storybook.**
 ```bash
-pnpm sb
+npm run sb
 ```
 2. **Open your [Copilot Edit](https://code.visualstudio.com/docs/copilot/copilot-edits).**
 3. **Add `src/Component.tsx` and `src/Component.stories.tsx` to your chat.** It will instruct Copilot to generate the component in these files. Otherwise, Copilot may not be able to generate the component in the correct files.
@@ -46,8 +46,7 @@ pnpm sb
 ## Synchronize with Latest Shadcn Docs and Components
 To provide contexts to Copilot, we copy all the components and docs from shadcn to our workspace. When shadcn updates their components, we need to synchronize our workspace with the latest shadcn components and docs.
 ```bash
-pnpm pull
-pnpm shadcn add -ao
+npm run update-shadcn
 ```
 
 ## Contributing
@@ -61,6 +60,6 @@ We also welcome your suggestions on what procedures we should establish to evalu
 I encourage everyone to adapt the prompt to your own tech stack and share your repository with the community! Publish your work to [this issue](#1) and I'll add it to the README when I have time.
 
 ## Other Similar Open-Source V0 Alike Projects
-- [dewhale](https://github.com/Yuyz0112/dewhale.git) (The prompt of this project is modified from this project [here](https://github.com/Yuyz0112/dewhale/blob/main/prompts/ui-gen.md))
+- [dewhale](https://github.com/Yuyz0112/dewhale) (The prompt of this project is modified from this project [here](https://github.com/Yuyz0112/dewhale/blob/main/prompts/ui-gen.md))
 - [rapidpages](https://github.com/rapidpages/rapidpages)
 - [openv0](https://github.com/raidendotai/openv0) (no longer maintained)
